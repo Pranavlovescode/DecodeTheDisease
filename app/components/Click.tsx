@@ -2,7 +2,7 @@
 import React from 'react'
 
 
-const Click: React.FC = () => {
+const Click = () => {
     const handleClick = () => {
         alert('You clicked the button!')
     }
