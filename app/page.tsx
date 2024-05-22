@@ -9,7 +9,7 @@ export default function Home() {
 
       <main >
 
-        <section className="bg-cover bg-no-repeat w-full h-screen bg-grey-900 bg-blend-multiply" style={{ backgroundImage: "url('/ryan-OyR-BRsh4GU-unsplash.jpg')" }}>
+        <section className="bg-cover bg-no-repeat h-screen bg-gray-400 bg-blend-multiply" style={{ backgroundImage: "url('/ryan-OyR-BRsh4GU-unsplash.jpg')" }}>
           <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
             <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Revolutionizing Agriculture with AI</h1>
             <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Harness the power of machine learning to detect and analyze leaf conditions, paving the way for healthier crops and higher yields.</p>
@@ -26,6 +26,9 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <div>
+          This is another section
+        </div>
       </main>
     </>
   );
